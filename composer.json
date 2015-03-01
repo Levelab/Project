@@ -1,0 +1,22 @@
+{
+    "name": "levelab/model/project",
+    "type": "library",
+    "description": "Domain of Levelab Projects",
+    "keywords": ["levelab", "projects"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonid Repin",
+            "email": "leonid-repin@levelab.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/common": "~1.2",
+        "levelab/model/core": "~0.1"
+    },
+    "autoload": {
+        "psr-0": { "Levelab\\Model\\Project": "" }
+    },
+    "target-dir": "Levelab/Model/Project"
+}
