@@ -5,8 +5,9 @@ use Levelab\Model\Core\Types\Author;
 use Levelab\Model\Core\Types\Container;
 use Levelab\Model\Project\Values\ProjectId;
 use Levelab\Model\Project\Values\ProjectProfile;
+use Levelab\Model\Thematic\Types\ThematicContainer;
 
-class Project {
+class Project implements ThematicContainer {
     /**
      * @var ProjectId
      */
